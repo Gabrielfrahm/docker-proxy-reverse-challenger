@@ -10,7 +10,7 @@ const config = {
 };
 const mysql = require("mysql");
 const connection = mysql.createConnection(config);
-const dropTable = `DROP TABLE people`;
+const dropTable = `DROP TABLE IF EXISTS people`;
 const createTable = `CREATE TABLE  people (id int not null auto_increment, name varchar(20) not null, primary key (id))`;
 const sql = `INSERT INTO people(name) VALUES('Gabriel')`;
 const sql2 = `INSERT INTO people(name) VALUES('Wesley')`;
