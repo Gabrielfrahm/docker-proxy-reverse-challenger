@@ -9,3 +9,4 @@ A porta padrão que estou exportando do nodejs é 3333
 
 ## `correção`
 Realizei o volume anonimo para nao sobreescrever a pasta node_modules, e realizei o dockerize da dependencia do container do mysql.
+O link do proxy preenchi com o nome do container.
